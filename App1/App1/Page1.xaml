@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Page1">
+
+    <StackLayout>
+            <Button x:Name="btn6" Text="Сделать ФОТО"  TextColor="White" FontSize="20" FontAttributes="Bold"
+                        BackgroundColor="RoyalBlue" HeightRequest="100" Margin="20,200,20,20" CornerRadius="20" Clicked="btn6_Clicked"/>
+
+        <Button x:Name="btn7" Text="Зазгрузить из ГАЛЛЕРЕИ" TextColor="White" FontSize="20" FontAttributes="Bold" 
+                        BackgroundColor="OrangeRed" HeightRequest="100" Margin="20,30,20,50" CornerRadius="20" Clicked="btn7_Clicked"/>
+    </StackLayout>
+    
+    
+</ContentPage>

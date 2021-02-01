@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.author">
+    <ContentPage.Content>
+        
+            <StackLayout>
+
+                <Grid>
+                    <Image Source="bcgrd.png" HeightRequest="4000" Aspect="AspectFill"/>
+                    <Label Text="Введите свои данные для входа" HorizontalTextAlignment="Center" Margin="30, 30, 30, 0" TextColor="black" FontSize="30"/>
+                    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                        <Entry Placeholder="User" HorizontalOptions="FillAndExpand" x:Name="user" FontSize="20"
+                       TextColor="Black" PlaceholderColor="Black" Margin="61, 200, 54, 0"></Entry>
+                        <Entry Placeholder="Password" HorizontalOptions="FillAndExpand" x:Name="pass" FontSize="20"
+                       TextColor="Black" PlaceholderColor="Black" Margin="61, 31, 54, 0"></Entry>
+                        <Button x:Name="btn1" Text="LOGIN" TextColor="Black" BackgroundColor="Aquamarine" Margin="61, 34, 54, 0" Clicked="btn1_Clicked"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>
